@@ -9,7 +9,6 @@ import React, { ReactNode } from "react"
 import { useStaticQuery, graphql } from "gatsby"
 
 import { Header } from "./header"
-import "./layout.css"
 import { Footer } from "./footer"
 
 export const Layout = ({ children }: { children: ReactNode }) => {
